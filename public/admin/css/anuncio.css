@@ -1,0 +1,119 @@
+#listaBairro{
+    border-radius: 4px;
+
+    position: absolute;
+    top: 52px;
+
+    cursor: default;
+    border: 1px solid #a6c9e2;
+    color: #222;
+    padding: 2px 5px;
+    display: none;
+    list-style: none;
+    width: 100%;
+    bottom: 0;
+    min-height: 270px;
+    background-color: #fff;
+    overflow: hidden;
+    z-index:10;
+}
+
+ #listaBairro li a {
+    text-decoration: none;
+    display: block;
+    padding: 2px 0.4em;
+    line-height: 1.5;
+    font-weight: normal;
+    text-align: left;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-top: 5px;
+     text-transform: uppercase;
+}
+
+#listaBairros li a:hover {
+    background-color: #d7d7d7;
+    color: #007aa5!important;
+}
+
+/*imagem upload */
+
+.file-upload {
+    background-color: #ffffff;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.file-upload-btn {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #1FB264;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #15824B;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.image-upload-wrap {
+    margin-top: 20px;
+    border: 4px dashed #1FB264;
+    position: relative;
+}
+
+.file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.drag-text {
+    text-align: center;
+}
+
+.drag-text h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    padding: 60px 0;
+}
+
+.file-upload-content {
+    display: none;
+    text-align: center;
+}
+.file-upload-image {
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+    padding: 20px;
+}
+.image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+}
+.remove-image {
+    width: 200px;
+    margin: 0;
+    color: #fff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}

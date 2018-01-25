@@ -1,0 +1,1127 @@
+/*!
+ * Start Bootstrap - Agency v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ */
+body {
+    overflow-x: hidden;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #444;
+    background-color: #e9ebee!important;
+}
+
+p {
+    line-height: 1.75; }
+
+a {
+    color: #fed136; }
+a:hover {
+    color: #fec503; }
+
+.text-primary {
+    color: #fed136 !important; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+section {
+    padding: 100px 0; }
+section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px; }
+section h3.section-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+@media (min-width: 768px) {
+    section {
+        padding: 50px 0;
+    }
+}
+
+.btn {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700; }
+
+.btn-xl {
+    font-size: 18px;
+    padding: 20px 40px; }
+
+.btn-primary {
+    background-color: #fed136;
+    border-color: #fed136; }
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #fec810 !important;
+    border-color: #fec810 !important;
+    color: white; }
+.btn-primary:active, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important; }
+
+::-moz-selection {
+    background: #fed136;
+    text-shadow: none; }
+
+::selection {
+    background: #fed136;
+    text-shadow: none; }
+
+img::selection {
+    background: transparent; }
+
+img::-moz-selection {
+    background: transparent; }
+
+body {
+    -webkit-tap-highlight-color: #fed136; }
+
+/* area pesquisa */
+.hero-search-box {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 79px;
+}
+.form-control {
+    box-shadow: none;
+}
+
+.input-lg {
+    border-radius: 4px;
+    font-size: 1.3em;
+    padding: 2px;
+}
+.search-input {
+    padding: 5px;
+}
+#formPrincipal textarea, input[type="text"], input[type="password"], input[type="number"], input[type="email"], input[type="tel"] , #frmEnviarMensagem textarea, input[type="text"], input[type="password"], input[type="number"], input[type="email"], input[type="tel"] {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    display: inline-block;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+.fontsize-em {
+    font-size: 1.2em!important;
+}
+
+#formPrincipal button{
+    padding: 7px 14px;
+}
+
+.caixa-pesquisa{
+    padding-top: 105px;
+    z-index: 10;
+    position: relative;
+}
+/* fim da pesquisa */
+
+/* contato css */
+.bg-branco{
+    background:#fff;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    box-shadow: 0 2px 3px silver;
+}
+
+.form-contato-total h3{
+    text-align: center;
+    color: #212121;
+    font-size: 2em;
+    font-weight: 600;
+    padding: .5em 1em;
+    box-shadow: 0px 0px 2px #b0b0b0;
+    text-transform: uppercase;
+    width: 30%;
+    margin: 0 auto;
+}
+p.quia {
+    text-align: center;
+    color: #01579b;
+    font-size: 1em !important;
+    font-style: italic;
+    margin: .5em 0 0 !important;
+    text-transform: capitalize;
+    font-weight: 500 !important;
+}
+
+.area-mapa{
+    margin: 3em 0;
+}
+
+.area-mapa iframe {
+    width: 100%;
+    min-height: 300px;
+}
+
+.contato-esquerdo h4 {
+    text-transform: capitalize;
+    font-size: 1.5em;
+    color: #01579b;
+    margin-bottom: .5em;
+    font-weight: 600;
+}
+.contato-esquerdo p {
+    color: #999;
+    line-height: 1.8em;
+    margin-bottom: 2em;
+}
+.contato-esquerdo p span {
+    font-weight: 600;
+    color: #212121;
+}
+
+.contato-esquerdo ul li {
+    list-style-type: none;
+    margin-bottom: 1em;
+    color: #999;
+}
+
+.contato-esquerdo ul li span {
+    padding-right: 1em;
+    color: #01579b;
+}
+.contato-esquerdo ul li a {
+    color: #999;
+    text-decoration: none;
+}
+.contato-esquerdo input[type="text"], .contato-esquerdo input[type="email"], .contato-esquerdo textarea {
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    color: #212121;
+    font-weight: bold;
+    background: #f5f5f5;
+    width: 100%;
+    border: 1px solid #E6E6E6;
+}
+.contato-esquerdo input[type="text"]:nth-child(2), .contato-esquerdo input[type="email"] {
+    margin: 1em 0 0;
+}
+
+.contato-esquerdo textarea {
+    min-height: 200px;
+    margin: 1em 1.1em;
+    width: 95.9% !important;
+}
+
+.contato-esquerdo input[type="submit"], .contato-esquerdo input[type="reset"] {
+    outline: none;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #fff;
+    background: #01579b;
+    width: 46.6%;
+    border: none;
+    text-transform: uppercase;
+    margin-left: 1.1em;
+}
+.contato-esquerdo input[type="submit"]:hover, .contato-esquerdo input[type="reset"]:hover {
+    background: #212121;
+}
+@media (max-width: 991px){
+
+    .area-mapa {
+        margin: 3em 0 2em;
+    }
+    .contato-esquerdo {
+        margin: 2em 0 0;
+    }
+    .contato-esquerdo p {
+        margin-bottom: 1em;
+    }
+    .contato-esquerdo:nth-child(5) {
+        margin: 2em 0 0;
+    }
+
+
+}
+
+@media (max-width: 640px){
+
+    .area-mapa iframe {
+        min-height: 250px;
+    }
+    .contato-esquerdo textarea {
+        width: 95% !important;
+
+    }
+    .contato-esquerdo input[type="submit"], .contato-esquerdo input[type="reset"] {
+        width: 48.3%;
+    }
+    .contato-esquerdo input[type="submit"] {
+        margin-left: .6em!important;
+    }
+}
+
+@media (max-width: 414px){
+    .form-contato-total h3 {
+        width: 70%;
+    }
+    .contato-esquerdo h4 {
+        font-size: 1.3em;
+    }
+    .contato-esquerdo input[type="submit"], .contato-esquerdo input[type="reset"] {
+        width: 95%;
+    }
+    .contato-esquerdo input[type="reset"] {
+        margin: 1em 0 0;
+    }
+}
+
+@media (max-width: 480px){
+    .form-contato-total h3 {
+        font-size: 1.4em;
+    }
+    p.quia {
+        font-size: 14px !important;
+    }
+    .contato-esquerdo input[type="reset"] {
+        margin-left: .6em;
+    }
+
+}
+
+/* fim contato css */
+#mainNav {
+    background-color: #212529; }
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: #fed136;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+#mainNav .navbar-brand {
+    color: #fed136;
+    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #fec503; }
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.bg-remove-fundo-preto{
+    z-index:20;
+    position: relative;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fed136; }
+
+@media (min-width: 992px) {
+    #mainNav {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+        border: none;
+        background-color: transparent; }
+    #mainNav .navbar-brand {
+        font-size: 1.75em;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s; }
+    #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 1.1em 1em !important; }
+    #mainNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #212529; }
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0; } }
+
+header.masthead {
+    text-align: center;
+    color: white;
+    background-image: url("../image/bg-3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.over-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+
+header.masthead .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px; }
+header.masthead .intro-text .intro-lead-in {
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+header.masthead .intro-text .intro-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+@media (min-width: 768px) {
+    header.masthead .intro-text {
+        padding-top: 250px;
+        padding-bottom: 200px; }
+    header.masthead .intro-text .intro-lead-in {
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+        margin-bottom: 25px;
+        font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    header.masthead .intro-text .intro-heading {
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+        margin-bottom: 50px;
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+}
+/* area imovel site principal */
+.mini-imovel-wrapper {
+    padding: 10px;
+}
+
+.mini-imovel {
+    height: 220px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.tag-mini-imovel {
+    margin-top: 20px;
+    color: white;
+}
+
+.tag-mini-imovel p {
+    margin: 0;
+    padding: 3px 5px;
+}
+
+.mini-imovel .mini-imovel-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -moz-transition: all 200ms;
+    -o-transition: all 200ms;
+    -webkit-transition: all 200ms;
+    transition: all 200ms;
+    z-index: 1;
+}
+.mini-imovel:hover .mini-imovel-img {
+    background-size: 120% auto;
+    -moz-transition: all 250ms;
+    -o-transition: all 250ms;
+    -webkit-transition: all 250ms;
+    transition: all 250ms;
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
+}
+.mini-imovel-over {
+    background: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    border-radius: 3px;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    z-index: 2;
+    opacity: 0;
+    -moz-transition: all 200ms;
+    -o-transition: all 200ms;
+    -webkit-transition: all 200ms;
+    transition: all 200ms;
+}
+.mini-imovel:hover .mini-imovel-over {
+    opacity: 1;
+    -moz-transition: all 600ms;
+    -o-transition: all 600ms;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+}
+.mini-imovel-referencia {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -65px;
+    width: 130px;
+    text-align: center;
+    background: #4fc3f7;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 0 3px 0;
+    z-index: 2;
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -moz-transition: all 200ms;
+    -o-transition: all 200ms;
+    -webkit-transition: all 200ms;
+    transition: all 200ms;
+}
+.mini-imovel:hover .mini-imovel-referencia {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -65px;
+    width: 130px;
+    text-align: center;
+    background: #4fc3f7;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 0 3px 0;
+    z-index: 2;
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -moz-transition: all 100ms;
+    -o-transition: all 100ms;
+    -webkit-transition: all 100ms;
+    transition: all 100ms;
+}
+.mini-imovel:hover h5 {
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+    top: 50px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 1;
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -moz-transition: all 400ms 50ms;
+    -o-transition: all 400ms 50ms;
+    -webkit-transition: all 400ms 50ms;
+    transition: all 400ms 50ms;
+}
+
+.mini-imovel hr {
+    position: absolute;
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    width: 0;
+    left: 50%;
+    top: 85px;
+    margin-left: 0;
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+    -moz-transition: all 200ms;
+    -o-transition: all 200ms;
+    -webkit-transition: all 200ms;
+    transition: all 200ms;
+}
+.mini-imovel:hover hr {
+    position: absolute;
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    width: 60%;
+    left: 50%;
+    top: 85px;
+    margin-left: -30%;
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -moz-transition: all 400ms 100ms;
+    -o-transition: all 400ms 100ms;
+    -webkit-transition: all 400ms 100ms;
+    transition: all 400ms 100ms;
+}
+
+.mini-imovel:hover .mini-imovel-preco {
+    position: absolute;
+    z-index: 2;
+    top: 105px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    -moz-transition: all 350ms 350ms;
+    -o-transition: all 350ms 350ms;
+    -webkit-transition: all 350ms 350ms;
+    transition: all 350ms 350ms;
+}
+
+
+.mini-imovel h5 {
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+    top: 50px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0;
+    -moz-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+    -moz-transition: all 200ms;
+    -o-transition: all 200ms;
+    -webkit-transition: all 200ms;
+    transition: all 200ms;
+}
+.mini-imovel h4 {
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+    top: 75px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: italic;
+    opacity: 0;
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -moz-transition: all 200ms;
+    -o-transition: all 200ms;
+    -webkit-transition: all 200ms;
+    transition: all 200ms;
+}
+.mini-imovel:hover h4 {
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+    top: 75px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: italic;
+    opacity: 1;
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -moz-transition: all 300ms 200ms ease-in;
+    -o-transition: all 300ms 200ms ease-in;
+    -webkit-transition: all 300ms 200ms ease-in;
+    transition: all 400ms 200ms;
+}
+.mini-imovel-preco {
+    position: absolute;
+    z-index: 2;
+    top: 105px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    -moz-transform: scale(0.7, 0) translateY(-100px);
+    -ms-transform: scale(0.7, 0) translateY(-100px);
+    -o-transform: scale(0.7, 0) translateY(-100px);
+    -webkit-transform: scale(0.7, 0) translateY(-100px);
+    transform: scale(0.7, 0) translateY(-100px);
+    -moz-transition: all 200ms;
+    -o-transition: all 200ms;
+    -webkit-transition: all 200ms;
+    transition: all 200ms;
+}
+
+.mini-imovel-preco h2 {
+    font-size: 22px;
+    color: #fff;
+    margin: 5px 0 0 0;
+    font-weight: 300;
+}
+
+.mini-imovel-preco h2 small {
+    font-size: 12px;
+    color: #fff;
+}
+
+
+
+/* fim area imovel site principal */
+
+/* imoveis todos css */
+
+.txt-header {
+    background: #4fc3f7;
+    text-align: center;
+    padding: 20px;
+
+}
+.txt-header h3 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 15px 0 5px 0;
+}
+
+.paginacao {
+    text-align: center;
+    margin-top: 30px;
+}
+/* fim imoveis todos css */
+
+/* imovel interno css */
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+.estilo-fonte-h2 {
+    margin: 0;
+    line-height: 24px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-size: 21px;
+}
+
+
+
+.breadcrumb>li {
+    display: inline-block;
+}
+
+.breadcrumb a {
+    color: #01579b;
+}
+.breadcrumb li.active {
+    color: #4fc3f7;
+    font-weight: 700;
+}
+
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/ ";
+}
+
+.box-default {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 3px silver;
+    margin-bottom: 20px;
+    clear: both;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.imovel-area-detalhe h1 {
+    max-width: 60%;
+    font-size: 20px!important;
+    margin: 0;
+    line-height: 20px;
+}
+
+.imovel-area-detalhe .subtitle {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    line-height: 12px;
+    color: #0A5489;
+}
+
+.imovel-area-detalhe .logradouro {
+    float: left;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+.imovel-area-detalhe .value-ficha {
+    display: block;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: right;
+}
+
+.imovel-area-detalhe .subtitle {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    line-height: 12px;
+    color: #0A5489;
+}
+
+.informacoes-imovel .unstyled {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+ul.unstyled {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+.no-padding {
+    padding: 0;
+}
+
+.informacoes-imovel li {
+    float: left;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.informacoes-imovel .text-info {
+    display: block;
+    font-size: 10px;
+
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 8px;
+    margin-top: 8px;
+    font-weight: 700;
+}
+.carrosel-fotos-imovel img {
+    margin-right: auto;
+    margin-left: auto;
+}
+.glyphicon {
+    margin-right: 5px;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.carrosel-fotos-imovel img {
+    margin-right: auto;
+    margin-left: auto;
+}
+.selected img {
+    opacity: 0.5;
+}
+
+.box-descricao-caract p {
+    margin-bottom: 0;
+    line-height: 21px;
+}
+
+.box-descricao-caract h3:nth-child(3) {
+    margin-top: 20px;
+}
+
+.bar-actions li {
+    float: left;
+    letter-spacing: -0.4px;
+    font-size: 13px;
+}
+.bar-actions .share-social {
+    margin: 0 40px;
+    margin-left: 0;
+}
+
+.bar-actions .share-social .icone-social {
+    float: left;
+    margin-left: 10px;
+}
+
+.bar-actions li a {
+    line-height: 14px;
+}
+.bar-actions .share-social .icone-e-mail:before {
+    color: #ebd073;
+    font-size: 28px;
+    line-height: 21px;
+
+}
+
+.bar-actions .share-social .icone-social:before {
+    font-size: 24px;
+    margin-right: 0;
+}
+.bar-actions li a:before {
+    font-size: 14px;
+    float: left;
+    line-height: 19px;
+    margin-right: 5px;
+}
+
+#modalDenuncieAbrir {
+    color: #ff5a00;
+}
+.btn, .simform__actions .sumbit {
+    display: inline-block;
+    line-height: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    outline-offset: 0;
+    font-weight: 400;
+    box-shadow: none;
+    min-width: 90px;
+    padding: 10px 14px;
+}
+
+.btn-lu {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    position: relative;
+    background-color: #2E3092;
+    text-align: center;
+}
+
+.contatar-ficha .text-aoligar {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+span#number_tel {
+    width: 100%;
+    background-color: #e5e5e5;
+    font-size: 22px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    color: #2E3092;
+}
+
+.tab-pane .number {
+    display: inline-block;
+    width: 100%;
+    margin: 1.5rem 0;
+    font-size: 22px;
+}
+
+.contatar-ficha .number {
+    width: 100%;
+    background-color: #e5e5e5;
+    font-size: 22px;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.box-default h3 {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+    line-height: 18px;
+    font-weight: normal;
+}
+
+.box-descricao-caract p {
+    margin-bottom: 0;
+    line-height: 21px;
+}
+
+.contatar-anunciante .tab-mensagem {
+    border-top: 1px solid #dcd8cd;
+    border-bottom: 1px solid #dcd8cd;
+    padding: 10px 0;
+}
+
+.contatar-anunciante .btn-primario {
+    font-size: 14px;
+    padding: 0px 15px;
+}
+
+.hide{
+    display:none;
+}
+
+#interesseAnuncio textarea, input[type="text"], input[type="password"], input[type="number"], input[type="email"], input[type="tel"] {
+    display: inline-block;
+    padding: 7px 20px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    color: #444;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+}
+
+#interesseAnuncio .input-block-level {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    box-sizing: border-box;
+}
+
+#interesseAnuncio textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="tel"]:focus {
+    border: 1px solid #979797;
+}
+
+#interesseAnuncio  textarea {
+    height: 100px;
+    resize: none;
+    line-height: 16px;
+}
+.btn-link {
+    background-color: transparent;
+    border: 0;
+    color: #ff5a00;
+}
+#liTelefone{
+    margin-bottom: 10px;
+}
+#interesseAnuncio .btn-link {
+    float: left;
+    width: 80px;
+    line-height: 30px;
+    cursor: pointer;
+}
+/* fim css imovel interno */
+
+
+footer {
+    padding: 25px 0;
+    text-align: center; }
+footer span.copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+footer ul.quicklinks {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+ul.social-buttons {
+    margin-bottom: 0; }
+ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #212529; }
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+    background-color: #fed136; }
+/* area responsivo */
+
+@media only screen and (max-width: 959px){
+    .side-left .box-default {
+        -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+    }
+    .side-left {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: column;
+        flex-flow: column;
+    }
+
+    .box-default {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .side-left .box-default {
+        -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+    }
+    .imovel-area-detalhe .posvalue-imovel {
+        float: left;
+        text-align: left;
+        margin-top: 10px;
+    }
+    .imovel-area-detalhe .posvalue-imovel .value-ficha {
+        text-align: left;
+    }
+
+    .imovel-area-detalhe .posvalue-imovel .value-ficha {
+        text-align: left;
+    }
+    .side-left, .side-right, .box-default, .container-financiamento .tool, .posvalue-imovel, .release-header>.pull-left, .container-conheca .tab-content-big, .container-conheca .tab-content-small, .check-ofertas {
+        width: 100%;
+        height: auto;
+    }
+
+    .informacoes-imovel li {
+        margin-bottom: 10px;
+    }
+    .informacoes-imovel .pull-right {
+        width: 100%;
+        border-top: 1px solid #ccc;
+        padding-top: 10px;
+    }
+}
