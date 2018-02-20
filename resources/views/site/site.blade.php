@@ -64,28 +64,28 @@
                 <div class="intro-lead-in">Ficou fácil encontrar sua futura casa!</div>
                 <div class="intro-heading text-uppercase">Faça sua pesquisa</div>
                 <div class="row hero-search-box">
-                    <form id="formPrincipal" class="col-12" method="GET" action="{{url('/imoveis')}}">
+                    <form id="formPrincipal" class="col-12" method="GET" action="{{url('anuncio')}}">
                         <div class="row">
                             <div class="col-sm-2 col-md-2  search-input">
                                 <select name="transacao" class="form-control input-lg search-second">
-
-                                    <option value="venda">Comprar</option>
-                                    <option value="aluga">Alugar</option>
+                                    @foreach(Session::get('tipoImovel') as $tipo)
+                                        <option value="{{$tipo->id}}">{{$tipo->nome}}</option>
+                                    @endforeach
                                 </select>
                             </div>
                             <div class="col-md-4 col-sm-4 search-input">
                                 <select name="categoria" class="form-control input-lg search-second">
-                                    <option selected=""> Qual o tipo?</option>
+
                                     @foreach(Session::get('categoriaAnuncios') as $categoria)
-                                        <option value="{{$categoria->categoriaImovel->id}}">{{$categoria->categoriaImovel->nome}}</option>
+                                        <option value="{{$categoria->id}}">{{$categoria->nome}}</option>
                                     @endforeach
                                 </select>
                             </div>
                             <div class="col-md-4 col-sm-4 search-input">
                                 <select name="cidade" class="form-control input-lg search-second">
                                     <options>Escolha uma cidade</options>
-                                    @foreach(Session::get('categoriaAnuncios') as $cidade)
-                                        <option value="{{$cidade->cidade->id}}">{{$cidade->cidade->nome}}</option>
+                                    @foreach(Session::get('cidades') as $cidade)
+                                        <option value="{{$cidade->id}}">{{$cidade->nome}}</option>
                                     @endforeach
 
                                 </select>
@@ -107,84 +107,29 @@
     <header style="min-height: 132px" class="masthead">
         <div class="caixa-pesquisa">
             <div class="row hero-search-box">
-                <form id="formPrincipal" class="col-12" method="GET" action="{{url('/imoveis')}}">
+                <form id="formPrincipal" class="col-12" method="GET" action="{{url('anuncio')}}">
                     <div class="row">
                         <div class="col-sm-2 col-md-2  search-input">
                             <select name="transacao" class="form-control input-lg search-second">
-
-                                <option value="venda">Comprar</option>
-                                <option value="aluga">Alugar</option>
+                                @foreach(Session::get('tipoImovel') as $tipo)
+                                    <option value="{{$tipo->id}}">{{$tipo->nome}}</option>
+                                @endforeach
                             </select>
                         </div>
                         <div class="col-md-4 col-sm-4 search-input">
                             <select name="categoria" class="form-control input-lg search-second">
-                                <option selected=""> Qual o tipo?</option>
-                                <optgroup label="Residencial">
-                                    <option value="apartment" selected="">
-                                        Apartamento
-                                    </option>
-                                    <option value="house">
-                                        Casa
-                                    </option>
-                                    <option value="countryHouse">
-                                        Chácara
-                                    </option>
-                                    <option value="condominium">
-                                        Casa de condomínio
-                                    </option>
-                                    <option value="flat">
-                                        Flat
-                                    </option>
-                                    <option value="buildingSit">
-                                        Lote/Terreno
-                                    </option>
-                                    <option value="twoStoryHouse">
-                                        Sobrado
-                                    </option>
-                                    <option value="roofApartment">
-                                        Cobertura
-                                    </option>
-                                    <option value="kitnet">
-                                        Kitnet
-                                    </option>
-                                </optgroup>
-                                <optgroup label="Comercial">
-                                    <option value="clinic">
-                                        Consultório
-                                    </option>
-                                    <option value="residentialBuilding">
-                                        Edifício residencial
-                                    </option>
-                                    <option value="commercialOffice">
-                                        Sala comercial
-                                    </option>
-                                    <option value="farm">
-                                        Fazenda/Sítio
-                                    </option>
-                                    <option value="storeHouse">
-                                        Galpão/Depósito/Armazém
-                                    </option>
-                                    <option value="commercialBuilding">
-                                        Imóvel comercial
-                                    </option>
-                                    <option value="shop">
-                                        Loja
-                                    </option>
-                                    <option value="commercialBuildingSit">
-                                        Lote/Terreno
-                                    </option>
-                                    <option value="commercialBusiness">
-                                        Ponto comercial
-                                    </option>
-                                </optgroup>
+
+                                @foreach(Session::get('categoriaAnuncios') as $categoria)
+                                    <option value="{{$categoria->id}}">{{$categoria->nome}}</option>
+                                @endforeach
                             </select>
                         </div>
                         <div class="col-md-4 col-sm-4 search-input">
                             <select name="cidade" class="form-control input-lg search-second">
                                 <options>Escolha uma cidade</options>
-                                <option>Uberaba</option>
-                                <option>Uberlândia</option>
-                                <option>Araxá</option>
+                                @foreach(Session::get('cidades') as $cidade)
+                                    <option value="{{$cidade->id}}">{{$cidade->nome}}</option>
+                                @endforeach
 
                             </select>
                         </div>

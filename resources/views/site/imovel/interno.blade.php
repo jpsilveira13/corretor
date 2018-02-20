@@ -13,7 +13,7 @@
         <ol class="breadcrumb hidden-xs">
             <li><a href="{{route('anuncio.venda',['tipo_anuncio' => $anuncio->categoriaImovel->url_nome])}}">Imóveis à venda</a></li>
             <li>
-                <a href="http://modelo01.imovicorretor.com.br/BuscarImoveis?TipoImovel=Apartamento&amp;Cidade=São Paulo&amp;idEmpresa=485ae334-34ab-44c9-943d-1a190bbcb343">
+                <a href="#">
                     {{ $anuncio->tipoImovel->nome }}
                     {{ $anuncio->cidade->nome }}                            </a>
             </li>

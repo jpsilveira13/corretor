@@ -34,6 +34,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::name('anuncio.venda')->get('/imoveis/{tipo_anuncio}','SiteController@tipoAnuncio');
 
+Route::name('busca.imoveis')->get('/{name_url}','SiteController@buscaPrincipal');
 //url admin
 
 

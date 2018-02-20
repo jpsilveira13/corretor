@@ -1,3 +1,6 @@
+function verificarCampos() {
+    
+}
 $(document).ready(function () {
     $('#carrouselImovel').carousel({
         interval: 5000
@@ -18,6 +21,8 @@ $(document).ready(function () {
         $('[id^=carousel-selector-]').removeClass('selected');
         $('[id=carousel-selector-'+id+']').addClass('selected');
     });
+    
+    
 
 });
 

@@ -72,7 +72,7 @@ class Anuncio extends Model
     }
 
     public function bairro(){
-    return $this->belongsTo(Bairro::class, 'bairro_id');
-}
+        return $this->belongsTo(Bairro::class, 'bairro_id');
+    }
 
 }
